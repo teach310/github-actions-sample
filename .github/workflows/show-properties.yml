@@ -22,7 +22,7 @@ jobs:
           echo ${{ secrets.SAMPLE }}
       - name: Show inputs properties
         run: |
-          ${{ github.event.inputs.comment }}
+          echo ${{ github.event.inputs.comment }}
 
     
 
