@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run echo
-        run: echo ${{ github.event.html_url }}
+        run: echo ${{ github.event.pull_request.url }}
